@@ -1,0 +1,82 @@
+html, body{margin:0px;
+            padding:0px;}
+            
+            .Nav{height:100%;
+    width:0%;
+    position:fixed;
+    overflow:hidden;
+    padding-top:60px;
+    background-color:black;
+    top:0px;
+    left:0px;
+    transition:1s;}
+    
+   .Nav .closeNav{position: absolute;
+  top: 0;  
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;}
+    
+    .Nav a {
+        display:block;
+        text-decoration:none;
+        padding:20px;
+        font-size:25px;
+        color:blue;}  
+        
+    h1{
+    padding:30px;
+    text-align:center;
+    margin:0px;
+    background:grey;
+    color:white;}
+    
+    p{text-align:left;
+    padding:30px;
+    font-size:30px;
+    background:lightgrey;
+    margin:0px;}
+    
+  footer{
+  padding:30px;
+  text-align:center;
+  background:grey;
+  color:white;}
+    /* end of styling for index.html file */
+    
+ html, body{margin:0px;
+    padding:0px;}
+    
+    form{background:lightgrey;
+    color:black;
+    text-align:center;
+    padding:20px;}
+    
+    input[type="email"]{
+        height:30px;
+  width:250px;
+  border-radius:20px;
+  border:0px;}
+    
+    button[type="submit"]{
+        height:30px;
+        width:90px;  
+        border-radius:20px;
+        border:0px;
+        margin-top:2px;}
+         
+         @keyframes anime{
+             from{font-size:5px;
+                 color:yellow;
+                 }
+                 to{font-size:70px;
+                 color:red;
+                 }
+                 }
+                 
+                 .sub{
+               animation-name:anime;
+               animation-duration:2s;
+     animation-iteration-count: infinite;
+                 }
+                   
